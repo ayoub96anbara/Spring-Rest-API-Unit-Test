@@ -69,4 +69,10 @@ public class MemberController {
                             "Member with ID: '" + id + "' not found."), HttpStatus.NOT_FOUND);
         }
     }
+
+    @GetMapping(path = "/myapi/hello")
+    public String sayHello() {
+        return "hello after deployment using Jenkins!";
+    }
+
 }
