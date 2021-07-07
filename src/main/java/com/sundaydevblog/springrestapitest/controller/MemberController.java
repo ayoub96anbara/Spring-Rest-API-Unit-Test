@@ -72,7 +72,7 @@ public class MemberController {
 
     @GetMapping(path = "/myapi/hello")
     public String sayHello() {
-        return "hello after deployment using Jenkins!";
+        return "hello after deployment using Jenkins that deployed in degital occean!";
     }
 
 }
